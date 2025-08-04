@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="600.0" style="-fx-background-color: #c2dcff; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 6, 0.2, 0, 2);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.Register">
+   <children>
+      <Pane layoutX="122.0" layoutY="73.0" minHeight="-Infinity" prefHeight="426.0" prefWidth="339.0" style="-fx-background-color: #FBFBFB; -fx-border-radius: 15px; -fx-background-radius: 15px;">
+         <children>
+            <Label layoutX="28.0" layoutY="14.0" prefHeight="52.0" prefWidth="284.0" styleClass="label2" stylesheets="@../style.css" text="Register To The StudyMate!">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="BtnRegister" layoutX="95.0" layoutY="373.0" mnemonicParsing="false" onAction="#onRegisterClicked" prefHeight="39.0" prefWidth="164.0" styleClass="search-button" stylesheets="@../style.css" text="Register" />
+            <VBox layoutX="139.0" layoutY="95.0" prefHeight="255.0" prefWidth="173.0" spacing="10.0">
+               <children>
+                  <TextField fx:id="TextFieldName" />
+                  <TextField fx:id="TextFieldSurname" />
+                  <TextField fx:id="TextFieldUsername" />
+                  <TextField fx:id="TextFieldEmail" />
+                  <TextField fx:id="TextFieldCity" />
+                  <PasswordField fx:id="PasswordFieldregister" />
+                  <PasswordField fx:id="PasswordFieldConfirm" />
+               </children>
+            </VBox>
+            <VBox layoutX="14.0" layoutY="91.0" prefHeight="245.0" prefWidth="133.0" spacing="15.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="72.0" text="Name:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="72.0" text="Surname:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="72.0" text="Username:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="45.0" text="Email:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="51.0" text="City:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="88.0" text="Password:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="Password Confirm:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</Pane>

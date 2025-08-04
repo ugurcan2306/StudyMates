@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.OtherProfilesController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="110.0" fitWidth="108.0" layoutX="40.0" layoutY="80.0" pickOnBounds="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2dcff" height="55.0" layoutX="-5.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="656.0" />
+      <Label fx:id="username" layoutX="28.0" layoutY="6.0" prefHeight="40.0" prefWidth="225.0" styleClass="word-title" stylesheets="@../style.css" text="\@Username" />
+      <Label fx:id="nameAndSurname" layoutX="177.0" layoutY="80.0" prefHeight="40.0" prefWidth="225.0" styleClass="word-title" stylesheets="@../style.css" text="Name Surname" />
+      <Label fx:id="StudyMatesLabel" layoutX="228.0" layoutY="127.0" prefHeight="40.0" prefWidth="108.0" styleClass="word-subtext" stylesheets="@../style.css" text=" StudyMates" />
+      <Label fx:id="courseNumberLabel" layoutX="403.0" layoutY="132.0" prefHeight="30.0" prefWidth="133.0" styleClass="word-subtext" stylesheets="@../style.css" text="Courses" />
+      <Label fx:id="mateNo" layoutX="217.0" layoutY="130.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="courseNo" layoutX="385.0" layoutY="133.0" styleClass="word" stylesheets="@../style.css" text="0">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="198.0" prefHeight="32.0" prefWidth="108.0" styleClass="word-subtext" stylesheets="@../style.css" text="Location:" />
+      <Label layoutX="40.0" layoutY="230.0" prefHeight="30.0" prefWidth="82.0" styleClass="word-subtext" stylesheets="@../style.css" text="Ranking:" />
+      <Label fx:id="locationLabel" layoutX="123.0" layoutY="198.0" prefHeight="32.0" prefWidth="108.0" styleClass="word-subtext" stylesheets="@../style.css" text="Location" />
+      <Label fx:id="ranking" layoutX="122.0" layoutY="230.0" prefHeight="30.0" prefWidth="82.0" styleClass="word-subtext" stylesheets="@../style.css" text="Ranking" />
+      <ScrollPane layoutX="40.0" layoutY="270.0" prefHeight="265.0" prefWidth="307.0">
+         <content>
+            <AnchorPane fx:id="commentsAnchor" prefHeight="279.0" prefWidth="304.0" stylesheets="@../style.css">
+               <children>
+                  <Label layoutX="5.0" prefHeight="40.0" prefWidth="150.0" styleClass="word-subtext1" stylesheets="@../style.css" text="Comments On" />
+                  <VBox fx:id="vBoxComments" layoutX="5.0" layoutY="38.0" prefHeight="194.0" prefWidth="294.0" />
+                  <Label fx:id="username1" layoutX="143.0" prefHeight="40.0" prefWidth="134.0" styleClass="word-subtext1" stylesheets="@../style.css" text="Username" />
+               </children>
+               <styleClass>
+                  <String fx:value="bordered" />
+                  <String fx:value="anchorPane" />
+               </styleClass>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Label layoutX="390.0" layoutY="290.0" text="ABOUT ME">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="aboutMeTextArea" layoutX="390.0" layoutY="320.0" prefHeight="138.0" prefWidth="254.0" stylesheets="@../style.css" />
+   </children>
+</AnchorPane>

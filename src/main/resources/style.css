@@ -1,0 +1,284 @@
+/* style.css */
+
+.blue-cool-button {
+    -fx-background-color: linear-gradient(to bottom, #e0ecff, #b3d1ff);
+    -fx-text-fill: #003366;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 15;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 0, 2);
+    -fx-cursor: hand;
+}
+
+.blue-cool-button1 {
+    -fx-background-color: linear-gradient(to bottom, #e0ecff, #b3d1ff);
+    -fx-text-fill: #003366;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;            /* küçültüldü */
+    -fx-padding: 5 10;              /* iç boşluk azaltıldı */
+    -fx-background-radius: 8;       /* köşe yumuşaklığı biraz küçültüldü */
+    -fx-border-radius: 8;           /* kenarlık köşesi de eşleşti */
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0.2, 0, 1.5); /* gölge biraz küçültüldü */
+    -fx-cursor: hand;
+}
+.dark-cool-button1 {
+    -fx-background-color: linear-gradient(to bottom, #cccccc, #666666);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;            /* küçültüldü */
+    -fx-padding: 5 10;              /* iç boşluk azaltıldı */
+    -fx-background-radius: 8;       /* köşe yumuşaklığı biraz küçültüldü */
+    -fx-border-radius: 8;           /* kenarlık köşesi de eşleşti */
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0.2, 0, 1.5); /* gölge biraz küçültüldü */
+    -fx-cursor: hand;
+}
+
+
+
+.red-cool-button {
+    -fx-background-color: linear-gradient(to bottom, #ffcccc, #ff6666);
+    -fx-text-fill: #660000;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 15;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 0, 2);
+    -fx-cursor: hand;
+}
+.green-cool-button {
+    -fx-background-color: linear-gradient(to bottom, #ccffcc, #66cc66);
+    -fx-text-fill: #003300;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 15;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 0, 2);
+    -fx-cursor: hand;
+}
+
+.yellow-cool-button {
+    -fx-background-color: linear-gradient(to bottom, #fff9cc, #ffeb66);
+    -fx-text-fill: #665500;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 15;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 0, 2);
+    -fx-cursor: hand;
+}
+.purple-cool-button {
+    -fx-background-color: linear-gradient(to bottom, #e0ccff, #b266ff);
+    -fx-text-fill: #330066;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 15;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 0, 2);
+    -fx-cursor: hand;
+}
+.dark-cool-button {
+    -fx-background-color: linear-gradient(to bottom, #cccccc, #666666);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 15;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 5, 0.5, 0, 3);
+    -fx-cursor: hand;
+}
+
+
+
+.cool-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #b3d1ff, #80b3ff);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0.4, 0, 3);
+}
+
+.logout-button {
+    -fx-background-color: linear-gradient(to bottom, #ff9999, #ff4d4d);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: darkred;
+}
+
+.logout-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ff4d4d, #cc0000);
+}
+.label1 {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+    -fx-padding: 8px 12px;
+    -fx-background-color: transparent;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+.label2 {
+    -fx-font-family: "Helvetica Neue", sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-background-radius: 12px;
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+    -fx-border-radius: 12px;
+    -fx-padding: 10px 16px;
+    -fx-effect: dropshadow(gaussian, #3280c0a7, 4, 0.5, 0, 2);
+}
+.label3 {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 20px;
+    -fx-text-fill: #39ff14;
+    -fx-effect: dropshadow(gaussian, #39ff14, 10, 0.7, 0, 0);
+    -fx-background-color: black;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+}
+.label4 {
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-size: 18px;
+    -fx-text-fill: #feda6a;
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #ff0080;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-padding: 8px;
+    -fx-background-radius: 4px;
+}
+.label5 {
+    -fx-font-family: "Calibri", sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: #4e4e4e;
+    -fx-background-color: #e0f7fa;
+    -fx-background-radius: 10px;
+    -fx-padding: 12px 16px;
+    -fx-border-color: #b2ebf2;
+    -fx-border-radius: 10px;
+}
+
+
+
+
+
+.search-button {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #dfefff);
+    -fx-text-fill: #336699;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-border-color: #aaccee;
+    -fx-border-width: 1;
+    -fx-border-radius: 8;
+    -fx-padding: 4 10;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 2, 0.2, 0, 1);
+}
+
+.search-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #dfefff, #c2e0ff);
+    -fx-text-fill: #1a4d80;
+}
+
+.word-title {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 22px;
+    -fx-text-fill: #4a4a4a;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 4 0;
+}
+.word-subtext {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 18px;
+    -fx-text-fill: #6e6e6e;
+    -fx-padding: 2 0 6 0;
+}
+.word-subtext1 {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 18px;
+    -fx-text-fill: #4a4a4a;
+    -fx-padding: 2 0 6 0;
+    -fx-font-weight:bold;
+}
+.word-subtext2 {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 20px;
+    -fx-text-fill: #4a4a4a;
+    -fx-padding: 2 0 6 0;
+    -fx-font-weight:bold;
+}
+
+.bordered {
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+.bordered1 {
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+.whitebordered {
+    -fx-border-color: rgb(255, 255, 255);
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+.word-quote {
+    -fx-font-family: "Georgia";
+    -fx-font-style: italic;
+    -fx-font-size: 16px;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 12;
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f4f7fb);
+    -fx-background-radius: 12;
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+    -fx-wrap-text: true;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0.2, 0, 2);
+}
+
+.word-signature {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 14px;
+    -fx-text-fill: #777;
+    -fx-padding: 4 0 0 0;
+    -fx-alignment: CENTER_RIGHT;
+}
+.text-area {
+    -fx-control-inner-background: #eef5ff;
+    -fx-background-color: transparent;
+    -fx-border-color: #c0c0c0;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-size: 18px;
+}
+.anchorPane{
+    -fx-background-color: #eef5ff;;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+}
