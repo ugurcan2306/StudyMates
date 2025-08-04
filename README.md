@@ -3,6 +3,7 @@ StudyMates is a desktop application designed to establish academic collaboration
 Its goal is to connect users based on their learning needs and areas of expertise. 
 
 Features that is provided by the application:
+
 1-When a user registers on the application, a confirmation email is sent to verify their registration(they can only capture an email and username which is not captured already).
 
 2-Users can search for other users by their usernames. They can also filter users based on the courses they are interested in, their location, and their ranking.
